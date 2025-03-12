@@ -14,7 +14,7 @@ pattern3 = r'title="Download Latency".*?<span class="result-data-value">(\d+)</s
 ptn_matches_result_value_span =  r'<span class="result-data-value">(\d+)<\/span>'
 
 
-debug=[1, 48, "18:36","18:37","18:38",2]
+debug=[1, 48, "06:00","12:00","18:00",2]
 release=[2,"06:00","12:00","18:00",2]
 
 
@@ -136,16 +136,16 @@ def rerun_speed_test():
         # Browser schließen
         driver.quit()
 
-# # Zeitplan für das Skript
-# schedule.every().day.at(debug[2]).do(run_speed_test)
-# schedule.every().day.at(debug[3]).do(run_speed_test)
-# schedule.every().day.at(debug[4]).do(run_speed_test)
+# Zeitplan für das Skript
+schedule.every().day.at(debug[2]).do(rerun_speed_test)
+schedule.every().day.at(debug[3]).do(rerun_speed_test)
+schedule.every().day.at(debug[4]).do(rerun_speed_test)
 
-# # Endlosschleife, die den Zeitplan überprüft
-# while True:
-#     print("check again now!")
-#     schedule.run_pending()
-#     time.sleep(debug[4])  # Alle 60 Sekunden überprüfen
+# Endlosschleife, die den Zeitplan überprüft
+while True:
+    print("check again now!")
+    schedule.run_pending()
+    time.sleep(60)  # Alle 60 Sekunden überprüfen
     
 dummyhtml = '''
             <div class="result-item-details">

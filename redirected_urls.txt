@@ -1,3 +1,14 @@
  TIME: 2025-03-04 21:28:40.939691 RESULT: https://www.speedtest.net/result/17451772397 Down: 51.75 Mbps  Up: 46.11 Mbps
  TIME: 2025-03-04 21:30:46.919543 RESULT: https://www.speedtest.net/result/17451778880 Down: 68.38 Mbps  Up: 47.95 Mbps
  TIME: 2025-03-04 21:33:40.443903 RESULT: https://www.speedtest.net/result/17451788010 Down: 40.62 Mbps  Up: 42.84 Mbps
+ TIME: 2025-03-05 13:50:38.963317 RESULT: https://www.speedtest.net/result/17454303668 Down: 49.54 Mbps  Up: 48.81 Mbps
+ TIME: 2025-03-05 18:00:35.409132 RESULT: https://www.speedtest.net/result/17455325428 Down: 48.69 Mbps  Up: 48.14 Mbps
+ TIME: 2025-03-09 13:51:50.969632 RESULT: https://www.speedtest.net/result/17470117559 Down: 59.71 Mbps  Up: 48.87 Mbps
+ TIME: 2025-03-09 13:52:52.841033 RESULT: https://www.speedtest.net/result/17470120215 Down: 57.82 Mbps  Up: 46.97 Mbps
+ TIME: 2025-03-09 13:54:00.133489 RESULT: https://www.speedtest.net/result/17470123297 Down: 61.60 Mbps  Up: 48.90 Mbps
+ TIME: 2025-03-10 16:25:41.624154 RESULT: https://www.speedtest.net/result/17474354192 Down: 24.30 Mbps  Up: 45.76 Mbps
+ TIME: 2025-03-10 16:26:42.716242 RESULT: https://www.speedtest.net/result/17474358379 Down: 35.81 Mbps  Up: 47.39 Mbps
+ TIME: 2025-03-10 16:27:43.626328 RESULT: https://www.speedtest.net/result/17474362693 Down: 22.57 Mbps  Up: 48.41 Mbps
+ TIME: 2025-03-12 20:23:16.758652 RESULT: https://www.speedtest.net/result/17484006421 Down: 32.73 Mbps  Up: 36.80 Mbps
+ TIME: 2025-03-12 20:24:14.885395 RESULT: https://www.speedtest.net/result/17484009828 Down: 30.86 Mbps  Up: 42.67 Mbps
+ TIME: 2025-03-12 20:25:17.089319 RESULT: https://www.speedtest.net/result/17484013420 Down: 29.11 Mbps  Up: 35.20 Mbps
