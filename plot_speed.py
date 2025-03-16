@@ -19,7 +19,7 @@ for line in data:
     dates.append(pattern_date.search(line).group())
     times.append(pattern_time.search(line).group(0))
     upload_speeds.append(float(pattern_upload.search(line).group(0)[4:]))
-    download_speeds.append(float(pattern_upload.search(line).group(0)[4:]))
+    download_speeds.append(float(pattern_download.search(line).group(0)[6:]))
 
 
 print()
@@ -37,10 +37,13 @@ minutes = [
 print(days, " = days")
 print(minutes, " = minutes")
 xpoints = np.array(minutes)
-ypoints = np.array(upload_speeds)
+ypoints = np.array(download_speeds)
+plt.plot(xpoints, np.array(upload_speeds), marker="o", label="Upload Speeds")
+plt.plot(xpoints, np.array(download_speeds), marker="x", label="Download Speeds")
 
-plt.plot(xpoints, ypoints, marker="o")
-plt.title("Upload Speeds over Minutes since Christ Birth")
+plt.title("Wifi Speeds over Minutes since Christ Birth")
 plt.xlabel("Minutes since Christ Birth")
-plt.ylabel("Upload Speeds")
+plt.ylabel("Wifi Speeds [Mbps]")
+plt.grid()
+plt.legend()
 plt.show()
